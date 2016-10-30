@@ -1,0 +1,61 @@
+
+<div style="width: 100%; height: 100%; display: flex;flex-direction: column;">
+    <div style="width: 100%;height: 30px;padding: 5px;background: gainsboro; border:1px solid gainsboro;">
+        文件管理
+    </div>
+    <div id="fileTopbar" style="width: 100%;height: 30px;padding: 5px;
+               border:1px solid gainsboro;display: flex;flex-direction: row;">
+        <input id="fileSearchInputView" style="width: 200px;align-self:center" type="search" placeholder="search">
+        <button id="fileFunSearch" style="margin-left: 5px;">搜索</button>
+        <button id="fileFunRefresh" style="margin-left: 20px;">刷新</button>
+        <button id="fileFunNewFolder" style="margin-left: 5px;">新建</button>
+        <button id="fileFunRename" style="margin-left: 5px;">重命名</button>
+        <button id="fileFunCut" style="margin-left: 5px;">剪贴</button>
+        <button id="fileFunCopy" style="margin-left: 5px;">复制</button>
+        <button id="fileFunPaste" style="margin-left: 5px;">粘贴</button>
+        <button id="fileFunDelete" style="margin-left: 5px;">删除</button>
+        <button id="fileFunDownload" style="margin-left: 5px;">下载</button>
+        <button id="fileFunUpload" style="margin-left: 5px;">上传</button>
+    </div>
+    <div id="filePathbar" style="width: 100%;height: 30px;padding: 5px;
+               border:1px solid gainsboro;display: flex;flex-direction: row;">
+        <button id="fileFunHistoryBefore" ><-</button>
+        <button id="fileFunHistoryCurrent" style="margin-left: 10px;">-></button>
+        <div style="margin-left: 15px;">路径:
+            <ol id="filePathListView" class="filePathList" >
+                <!--文件路径-->
+                <!--<li>/</li>-->
+                <!--<li>storage</li>-->
+            </ol>
+        </div>
+    </div>
+    <div style="width: 100%; height: 100%;display: flex;flex-direction:column;">
+        <div style="width: 100%; height: 100%;display: flex">
+            <div style="width: 30%; height: 100%; border:1px solid gainsboro;">
+                <!--文件树展示-->
+                <div id="fileTreeView" style="width: 100%; height: 100%;">
+
+                </div>
+            </div>
+            <div style="width: 70%; height: 100%; border:1px solid gainsboro;">
+                <!--文件夹展示-->
+                <div style="width: 100%; height: 100%;">
+                    <div id="fileView" >
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 35px;">
+            <div id="fileStatusView" style="height:100%;display: none; flex-direction:row; align-items: center;">
+                <!--文件夹状态-->
+                <img id="fileStatusImgView" style="height: 20px;width: 20px;align-items: center;margin-right: 15px;margin-left: 15px"/>
+                <div>
+                    <div id="fileStatusNameView" style="font-size: 12px">文件名</div>
+                    <div id="fileStatusInfoView" style="font-size: 12px;">文件大小 文件时间</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

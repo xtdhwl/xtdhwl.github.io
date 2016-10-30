@@ -1,0 +1,53 @@
+.gridView_file_img {
+    display: block;
+    margin: auto;
+    max-height: 50px!important;
+    width: 45px;
+    height:45px;
+}
+
+.gridView_folder_img {
+    display: block;
+    margin: auto;
+    max-height: 50px!important;
+    width: 50px;
+    height: 50px;
+}
+
+.gridView_item_text{
+    width: 75px;
+    /* height: 21px; */
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    /* max-width: 310px; */
+    overflow: hidden;
+}
+
+.gridItem{
+    border: 1px solid gainsboro;
+    margin: 5px;
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridSelectItem{
+    border: 1px solid red;
+    margin: 5px;
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

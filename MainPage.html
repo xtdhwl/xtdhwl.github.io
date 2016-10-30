@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aweb</title>
+    <meta name="description" content="Aweb控制终端">
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+    >
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/aweb.css">
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+<div id="$divBody" style="height: 100%" >
+    <div id="app" style="width: 100%; height: 100%; display: flex;">
+        <div style="width: 20%;  height: 100%; background: gainsboro">
+            <ol class="funList">
+                <li class="select" data-funname="file">文件管理</li>
+                <li data-funname="english">英语学习</li>
+                <li data-funname="terminal">控制台</li>
+            </ol>
+        </div>
+        <div id="appContent" style="width: 80%;   height: 100%;">
+
+        </div>
+    </div>
+</div>
+
+
+<script src="js/util/EventUtil.js"></script>
+<script src="js/util/StringUtil.js"></script>
+<script src="js/util/DateUtil.js"></script>
+<script src="js/SRHttpManager.js"></script>
+
+<script src="js/SRTreeView.js"></script>
+<script src="js/SRGridView.js"></script>
+
+
+<script src="js/FilePage.js"></script>
+
+<script src="js/MainPage.js"></script>
+</body>
+
+</html>
