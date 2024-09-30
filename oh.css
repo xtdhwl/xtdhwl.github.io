@@ -10,7 +10,7 @@ body {
     overflow-x: hidden; 
     /* flex: 1 1 0%; */
     flex: 0 0 auto;
-    height: 1000px;
+    height: 1100px;
 }
 
 .root{
@@ -20,7 +20,7 @@ body {
     width: 1px;
     min-width: 100%;
     height: 100%;
-    background-color: #bbff00;
+    background-color: #ff00bb;
     overflow: hidden;
 }
 
