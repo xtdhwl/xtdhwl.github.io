@@ -10,7 +10,7 @@ body {
     overflow-x: hidden; 
     /* flex: 1 1 0%; */
     flex: 0 0 auto;
-    height: 800px;
+    height: 1000px;
 }
 
 .root{
